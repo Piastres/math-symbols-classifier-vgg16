@@ -1,0 +1,73 @@
+@font-face {
+    src: url("../fonts/CeraRoundProDEMOMedium.otf");
+}
+.mainPane{
+    -fx-background-color: #FFFFFF;
+}
+
+.mainPane Label{
+    /*-fx-text-fill: #D5D5D5;*/
+    -fx-text-fill: #2B2B2B;
+    -fx-font-size: 1.5em;
+    -fx-font-family: "Cera Round Pro DEMO Medium";
+}
+.mainPane Title1{
+    -fx-font-size: 5.5em;
+}
+.mainPane Title2{
+    -fx-font-size: 1.5em;
+}
+.mainPane Title3{
+    -fx-font-size: 1.5em;
+}
+.Pane {
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+.button {
+    -fx-padding: 5 22 5 22;
+    -fx-border-color: #e2e2e2;
+    -fx-border-width: 2;
+    -fx-background-radius: 0;
+    -fx-background-color: #d8d8d8;
+    -fx-font-family: "Segoe UI", Helvetica, Arial, sans-serif;
+    -fx-font-size: 11pt;
+    -fx-text-fill: #4A4A4A;
+}
+
+.button:hover{
+    -fx-background-color: #979797;
+    -fx-text-fill: lightsteelblue;
+}
+
+.button:pressed, .button:default:hover:pressed
+{
+    -fx-background-color: white;
+    -fx-text-fill: #1d1d1d;
+}
+
+.button:focused
+{
+    -fx-border-color: white, white;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 1);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+
+.button:disabled, .button:default:disabled
+{
+    -fx-opacity: 0.4;
+    -fx-background-color: #1d1d1d;
+    -fx-text-fill: white;
+}
+
+.button:default
+{
+    -fx-background-color: #008287;
+    -fx-text-fill: #ffffff;
+}
+
+.button:default:hover{
+    -fx-background-color: #219297;
+}
